@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Room discuss</title>
+<link href="./indexstyles.css" rel="stylesheet">
+<script src="./socket.io/socket.io.js" defer></script>
+<script src="./indexscript.js" defer></script>
+</head>
+<body>
+<h1>Room discuss</h1>
+<br>
+<h1>Join</h1>
+<div id="join-room">
+<input type="text" id="room" placeholder="Room" maxlength="32">
+<input type="text" id="username" placeholder="Username" maxlength="64"><br>
+<input type="button" id="join" value="Join" onclick="joinRoom()"><br>
+</div>
+<h1 id="status" class="orange">Connecting...</h1>
+<h1 id="ping" class="orange">-</h1>
+</body>
+</html>

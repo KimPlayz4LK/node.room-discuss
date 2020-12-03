@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Room discuss</title>
+<link href="./styles.css" rel="stylesheet">
+<script src="./socket.io/socket.io.js" defer></script>
+<script src="./script.js" defer></script>
+</head>
+<body>
+<div id="message-form">
+<input type="text" id="message-content" placeholder="Message" maxlength="256">
+<input type="button" id="message-send" value="Send" onclick="sendMessage()">
+</div>
+<h1 id="status" class="orange">Connecting...</h1>
+<h1 id="room"></h1>
+<h1 id="username"></h1>
+<h1 id="ping" class="orange">-</h1>
+<div id="messages"></div>
+</body>
+</html>

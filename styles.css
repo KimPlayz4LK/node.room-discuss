@@ -1,0 +1,35 @@
+*{outline:none;}
+body{text-align:center;font-family:arial;background:black;color:white;transition:.3s;}
+#status{position:fixed;top:5px;left:5px;transition:1s;}
+#ping{position:fixed;top:5px;right:5px;transition:1s;}
+#room{color:aqua;text-align:center;animation:fade infinite 120s;display:inline-block;opacity:.5;letter-spacing:2px;}
+#username{color:aqua;text-align:center;animation:fade infinite 30s;display:inline-block;}
+.red{color:red;}
+.orange{color:orange;}
+.yellow{color:yellow;}
+.lime{color:lime;}
+.green{color:green;}
+cyan{color:cyan;}
+#messages{position:fixed;overflow-y:auto;top:10%;left:0px;margin:5px;width:99%;height:85%;background:#222;border:1px #999 solid;border-radius:5px;}
+#message-form{z-index:3;position:fixed;left:0px;bottom:0px;width:99%;height:3%;margin:5px;background:#555;border-radius:5px;border:1px #999 solid;}
+#message-content,#message-send{margin:5px;background:#666;border-radius:5px;border:1px #aaa solid;color:#aaa;transition:.3s;}
+#message-content:hover,#message-send:hover{background:#888;border-radius:5px;border:1px #ccc solid;color:#ccc;}
+#message-content{width:70%;height:90%;}
+#message-send{width:20%;height:100%;}
+@keyframes fade{
+0%{color:red;}
+10%{color:orange;}
+20%{color:yellow;}
+30%{color:lime;}
+40%{color:blue;}
+50%{color:cyan;}
+60%{color:pink;}
+70%{color:violet;}
+80%{color:brown;}
+90%{color:white;}
+100%{color:red;}
+}
+.message{margin:10px;width:90%;background:#444;border:1px #999 solid;border-radius:5px;}
+.username{color:#bbb;font-size:15px;float:left;margin:5px;}
+.content{color:white;font-size:20px;margin:10px;}
+.status{font-size:10px;float:right;margin:5px;}

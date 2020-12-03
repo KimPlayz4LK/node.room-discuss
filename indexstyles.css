@@ -1,0 +1,13 @@
+*{outline:none;}
+body{text-align:center;font-family:arial;background:black;color:white;transition:.3s;}
+#status{position:fixed;bottom:5px;left:5px;transition:1s;}
+#ping{position:fixed;bottom:5px;right:5px;transition:1s;}
+.red{color:red;}
+.orange{color:orange;}
+.yellow{color:yellow;}
+.lime{color:lime;}
+.green{color:green;}
+#join-room{text-align:center;background:#444;border:2px #777 solid;border-radius:5px;margin:10px;}
+input{width:40%;background:#555;border:1px #888 solid;border-radius:5px;margin:10px;color:white;font-size:25px;transition:.3s;}
+input#join{width:30%;}
+input:hover{background:#666;border:1px #999 solid;}
